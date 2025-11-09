@@ -1,0 +1,3 @@
+[submodule "external/implicit_dtet"]
+	path = external/implicit_dtet
+	url = https://github.com/SonSang/implicit_dtet.git

@@ -36,13 +36,13 @@ def download_file(url, output_path):
 url = "https://vcg.isti.cnr.it/Publications/2014/MPZ14/inputmodels.zip"
 zip_file_path = './data/inputmodels.zip'
 
-os.makedirs('./data', exist_ok=True)
+# os.makedirs('./data', exist_ok=True)
 
-download_file(url, zip_file_path)
+# download_file(url, zip_file_path)
 
 with ZipFile(zip_file_path, 'r') as zip_ref:
     zip_ref.extractall('./data')
 
-os.remove(zip_file_path)
+# os.remove(zip_file_path)
 
 print("Download and extraction complete.")

@@ -33,3 +33,5 @@ print("torch:", torch.__version__, "cuda:", torch.version.cuda)
 ctx = dr.RasterizeCudaContext()
 print("nvdiffrast CUDA context OK")
 PY
+
+pip install -e .

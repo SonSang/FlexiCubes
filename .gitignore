@@ -1,2 +1,6 @@
 __pycache__
 examples/out/
+data/
+output/
+*.egg-info/
+.vscode/

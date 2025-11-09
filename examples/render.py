@@ -20,7 +20,7 @@ from ipywidgets import interactive, HBox, VBox, FloatLogSlider, IntSlider
 import torch
 import nvdiffrast.torch as dr
 import kaolin as kal
-import util
+import examples.util as util
 
 ###############################################################################
 # Functions adapted from https://github.com/NVlabs/nvdiffrec
