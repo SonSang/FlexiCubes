@@ -55,7 +55,7 @@ if __name__ == "__main__":
     device = 'cuda'
     
     os.makedirs(FLAGS.out_dir, exist_ok=True)
-    glctx = dr.RasterizeGLContext()
+    glctx = dr.RasterizeCudaContext()
     
     # Load GT mesh
     gt_mesh = load_mesh(FLAGS.ref_mesh, device)
